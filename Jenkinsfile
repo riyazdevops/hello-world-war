@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('clone and clean') { 
+        stage('cloning and cleanig') { 
             steps {
                bat "mvn clean"
             }
